@@ -1,0 +1,12 @@
+body {
+    background-color: burlywood ;
+}
+.center {
+    text-align: center;
+}
+.color {
+    background-color: tan;
+}
+p, pre {
+    margin-left: 30px;
+}

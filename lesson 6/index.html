@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>lesson 6</title>
+</head>
+<body>
+<h2 class="center">Задача 1. Сумма аргументов</h2>
+<p>Напишите функцию <span class="color">sum(...)</span>, которая возвращает сумму всех
+    своих аргументов.</p>
+<script src="js/script1.js"></script>
+
+<h2 class="center">Задание 2 (Удаление css клссов)</h2>
+<p>У объекта есть свойство <span class="color">className</span>, которое хранит список css класов – слов, разделенных пробелами:</p>
+<p><pre> var obj = {
+  className: 'open menu'
+};</pre></p>
+<p>Напишите функцию <span class="color">removeClass(obj, cls)</span>, которая удаляет класс cls, если он есть:</p>
+<p><pre> removeClass(obj, 'open'); // obj.className='menu'
+ removeClass(obj, 'blabla'); // без изменений</pre></p>
+<script src="js/script2.js"></script>
+
+<h2 class="center">Задание 3. (Сортировка массива строк)</h2>
+<p>Есть массив строк <span class="color">arr</span>. Создайте массив <span class="color">arrSorted</span> — из тех же элементов, но отсортированный.</p>
+<p>Исходный массив не должен меняться.</p>
+<p><pre>var arr = ['HTML', 'JavaScript', 'CSS'];</pre></p>
+<script src="js/script3.js"></script>
+
+<h2 class="center">Задание 4 (Random sort)</h2>
+<p>Необходимо отсортировать массив в случайном порядке используя метод <span class="color">sort</span> .</p>
+<p><pre>var arr = [1, 2, 3, 4, 5];
+arr.sort(ваша функция);</pre></p>
+<script scr="js/script4.js"></script>
+
+<h2 class="center">Задание 5 (Object sort)</h2>
+<p>Напишите код, который отсортирует массив объектов <span class="color">people</span>  по полю <span class="center">age</span>.</p>
+<p>Например:</p>
+<p><pre>var vasya = { name: 'Вася', age: 23 };
+var masha = { name: 'Маша', age: 18 };
+var vovochka = { name: 'Вовочка', age: 6 };
+
+var people = [ vasya , masha , vovochka ];
+... ваш код ...
+// теперь people: [vovochka, masha, vasya]
+console.log(people[0].age) // 6</pre></p>
+<p>Выведите список имён в массиве после сортировки.</p>
+<script scr="js/script5.js"></script>
+
+<h2 class="center">Задание 6 (Проверка на палиндром)</h2>
+<p>Палиндром - это строка которая читается с обоих сторон одинаково. Например: <span class="color" Анна, оно, А роза упала на лапу Азора</span>.</p>
+<p>Необходимо написать функцию <span class="color">isPal(string)</span>, которая возвращает <span class="color">true</span> или <span class="color">false</span> в зависимости от того является ли строка палиндромом или нет.</p>
+<script src="js/script6.js"></script>
+
+<h2 class="center">Задание 7 (Уникальные элементы массива)</h2>
+<p>Напишите функцию <span class="color">unique(arr)</span>, которая возвращает массив, содержащий только уникальные элементы arr (arr — массив строк).</p>
+<p><code>var strings = ['кришна', 'кришна', 'харе', 'харе', 'харе', 'харе', 'кришна', 'кришна', '8-()' ];</code></p>
+<script scr="js/script.7"></script>
+
+<h2 class="center">Задание 8 (Анаграммы)</h2>
+<p>Анаграммы — слова, состоящие из одинакового количества одинаковых букв, но в разном порядке. Например:</p>
+<p><code>воз - зов киборг - гробик корсет - костер - сектор</code></p>
+<p>Напишите функцию <span class="color">anClean(arr)</span>, которая возвращает массив слов, очищенный от анаграмм.</p>
+<p><code>var arr = ['воз', 'киборг', 'корсет', 'ЗОВ', 'гробик', 'костер', 'сектор'];</code></p>
+<script src="js/script8.js"></script>
+</body>
+</html>
